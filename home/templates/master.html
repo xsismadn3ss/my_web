@@ -1,0 +1,18 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{% static "css/style.css" %}">
+    <title>{% block title %}{% endblock title %}</title>
+</head>
+<body>
+    <nav>
+        <a style="font-family: Tiny5; font-size: 25;" href="">@xsismadn3ss</a>
+        <a href="">Inicio</a>
+        <a href="">Contacto</a>
+        <a href="">Github</a>
+    </nav>
+    {% block content %}{% endblock content %}
+</body>
+</html>
