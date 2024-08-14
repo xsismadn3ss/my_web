@@ -4,11 +4,16 @@
 {% block content %}
 <section>
     <article>
-        <h1>Console</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, rem corporis? Error quae adipisci quas
-            a,
-            dolorum harum accusantium sequi quibusdam nostrum molestiae saepe sit suscipit libero laboriosam, enim aut.
-        </p>
+        <h1>Sobre mi</h1>
+        <p>{% lorem 1 p random %}</p>
+    </article>
+    <article>
+        <h1>Mis proyectos</h1>
+        <p>{% lorem 1 p random %}</p>
+    </article>
+    <article>
+        <h1>Proyectos en desarrollo</h1>
+        <p>{% lorem 2 b random %}</p>
     </article>
 </section>
 {% endblock content %}
